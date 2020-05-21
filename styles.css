@@ -1,5 +1,6 @@
 html , body{
     background-color: rgb(160, 214, 214);
+    font-family: "Oxygen" ,  serif;
 }
 
 .GameArea{
@@ -11,6 +12,7 @@ html , body{
 }
 
 .output{
+    position: relative;
     height: 70%;
     width: 70%;
     background-color: rgb(156, 197, 116);
@@ -26,7 +28,21 @@ html , body{
     height: 50px;
     width: 50px;
     border:1px solid rgb(100, 48, 148);
-    background-color: rgb(168, 112, 221);
+    background-color: rgb(104, 191, 206);
     border-radius: 5px;
     cursor: pointer;
 }
+
+.message{
+    position: absolute;
+    top: 2%;
+    left: 10%;
+}
+
+div .banner{
+    width: 100%;
+    position: absolute;
+    top:50%;
+    bottom:50%;
+}
+
