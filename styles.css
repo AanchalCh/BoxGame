@@ -1,0 +1,32 @@
+html , body{
+    background-color: rgb(160, 214, 214);
+}
+
+.GameArea{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.output{
+    height: 70%;
+    width: 70%;
+    background-color: rgb(156, 197, 116);
+    border: 1px solid rgb(127, 190, 63);
+    cursor: grab;
+}
+
+.box{
+    display:none;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 50px;
+    width: 50px;
+    border:1px solid rgb(100, 48, 148);
+    background-color: rgb(168, 112, 221);
+    border-radius: 5px;
+    cursor: pointer;
+}
