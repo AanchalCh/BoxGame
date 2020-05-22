@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 })
     
 function move() {
-    let speed = Math.random() * 4;
+    let speed = Math.random() * 10;
     const box = document.querySelector(".box");
     let bounds = output.getBoundingClientRect();
     box.steps--;
